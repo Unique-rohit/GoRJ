@@ -1,4 +1,4 @@
-# GoFood: Food Delivery App
+# GoRJ: Food Delivery App
 A web application which has features of login, signup, selecting food from the menu and checking out with the food selected.
 Based on Reactjs, Express, MongoDB and Node.js.
 <br>
