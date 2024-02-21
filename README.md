@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# GoFood: Food Delivery App
+A web application which has features of login, signup, selecting food from the menu and checking out with the food selected.
+Based on Reactjs, Express, MongoDB and Node.js.
+<br>
+Bootstrap-dark-5 CSS framework is used for the designing part.
+Usage of API's built on localhost, and with MongoDB document and collction insertion.
+Usage of Bcryptjs and JWT tokens for the authorisation and encryption of the password and generating tokens for security purpose.
+Also the search bar is made active by using filter in Reactjs to get the desired food item.
+<br>
+For seperate repos of UI and backend:
+<br>
+Front-end:
+https://github.com/mank-423/goFoodUI/tree/main
+<br>
+Back-end:
+https://github.com/mank-423/goFoodBackend
+# The website 
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/96490105/233139003-16dbaf93-8feb-4093-9cac-cebf99d5c0cd.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- The list of Food Items
+- Data fetched from end point made for the data present in MongoDB.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/96490105/233139734-6778feb3-f788-409a-933c-983445f8d38d.png">
 
-## Available Scripts
 
-In the project directory, you can run:
+- Sign-up Page
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/96490105/233140161-54d9a771-7fa7-4e46-a083-c1565ac563e9.png">
 
-### `npm start`
+- Entry in MongoDB Atlas
+<img width="783" alt="image" src="https://user-images.githubusercontent.com/96490105/233140421-5e50d802-f9de-4084-8474-843d230d6834.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Login Page
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/96490105/233140602-d1075d72-b0d0-4b1c-baf8-3482acf96b0b.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- After login changes in Navbar
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/96490105/233140824-bd095cfd-961f-4750-ba6c-6ed0c4c31d37.png">
 
-### `npm test`
+- Using Bootstrap badge for change in values in cart according to ordered items
+<img width="945" alt="image" src="https://user-images.githubusercontent.com/96490105/233141116-5bd9c316-7432-4e66-ae3b-aced7a60265c.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Checkout Page
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/96490105/233141245-3cdeb623-36a2-46a5-a983-1e02ad454d7b.png">
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Data Entry for order
+<img width="790" alt="image" src="https://user-images.githubusercontent.com/96490105/233141560-62c679d3-e4c8-4ea8-b8ff-bb6e786af43b.png">
